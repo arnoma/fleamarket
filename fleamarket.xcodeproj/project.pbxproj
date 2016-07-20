@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8E1D4B1D3B8AAD00D3AAC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D4A1D3B8AAD00D3AAC2 /* main.m */; };
+		5E8E1D4E1D3B8AAD00D3AAC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D4D1D3B8AAD00D3AAC2 /* AppDelegate.m */; };
+		5E8E1D541D3B8AAD00D3AAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1D521D3B8AAD00D3AAC2 /* Main.storyboard */; };
+		5E8E1D571D3B8AAD00D3AAC2 /* fleamarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D551D3B8AAD00D3AAC2 /* fleamarket.xcdatamodeld */; };
+		5E8E1D591D3B8AAD00D3AAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1D581D3B8AAD00D3AAC2 /* Assets.xcassets */; };
+		5E8E1D5C1D3B8AAD00D3AAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1D5A1D3B8AAD00D3AAC2 /* LaunchScreen.storyboard */; };
+		5E8E1D671D3B8AAE00D3AAC2 /* fleamarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D661D3B8AAE00D3AAC2 /* fleamarketTests.m */; };
+		5E8E1D721D3B8AAE00D3AAC2 /* fleamarketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D711D3B8AAE00D3AAC2 /* fleamarketUITests.m */; };
+		5E8E1D851D3BA13700D3AAC2 /* FMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D841D3BA13700D3AAC2 /* FMTabBarController.m */; };
+		5E8E1D891D3BBF7200D3AAC2 /* FMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D881D3BBF7200D3AAC2 /* FMNavigationController.m */; };
+		5E8E1D921D3BC17500D3AAC2 /* FMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D901D3BC17500D3AAC2 /* FMHomeViewController.m */; };
+		5E8E1D931D3BC17500D3AAC2 /* FMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1D911D3BC17500D3AAC2 /* FMHomeViewController.xib */; };
+		5E8E1D971D3BDEFB00D3AAC2 /* FMFishpondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D951D3BDEFB00D3AAC2 /* FMFishpondViewController.m */; };
+		5E8E1D981D3BDEFB00D3AAC2 /* FMFishpondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1D961D3BDEFB00D3AAC2 /* FMFishpondViewController.xib */; };
+		5E8E1D9C1D3BDF0800D3AAC2 /* FMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D9A1D3BDF0800D3AAC2 /* FMMessageViewController.m */; };
+		5E8E1D9D1D3BDF0800D3AAC2 /* FMMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1D9B1D3BDF0800D3AAC2 /* FMMessageViewController.xib */; };
+		5E8E1DA11D3BDF1800D3AAC2 /* FMAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1D9F1D3BDF1800D3AAC2 /* FMAccountViewController.m */; };
+		5E8E1DA21D3BDF1800D3AAC2 /* FMAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1DA01D3BDF1800D3AAC2 /* FMAccountViewController.xib */; };
+		5E8E1DA61D3BDF2600D3AAC2 /* FMPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1DA41D3BDF2600D3AAC2 /* FMPublishViewController.m */; };
+		5E8E1DA71D3BDF2600D3AAC2 /* FMPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E1DA51D3BDF2600D3AAC2 /* FMPublishViewController.xib */; };
+		5E8E1DAA1D3BE0B000D3AAC2 /* FMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1DA91D3BE0B000D3AAC2 /* FMTabBar.m */; };
+		5E8E1DAD1D3C811700D3AAC2 /* FMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E1DAC1D3C811700D3AAC2 /* FMTabBarButton.m */; };
+		5EC5E9531D3E5DF50090767A /* FMMidMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC5E9521D3E5DF50090767A /* FMMidMenu.m */; };
+		5EC9B3471D3CF4D000351D4F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC9B3461D3CF4D000351D4F /* NSString+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E8E1D631D3B8AAE00D3AAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8E1D3E1D3B8AAD00D3AAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E8E1D451D3B8AAD00D3AAC2;
+			remoteInfo = fleamarket;
+		};
+		5E8E1D6E1D3B8AAE00D3AAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8E1D3E1D3B8AAD00D3AAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E8E1D451D3B8AAD00D3AAC2;
+			remoteInfo = fleamarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E8E1D461D3B8AAD00D3AAC2 /* fleamarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fleamarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8E1D4A1D3B8AAD00D3AAC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E8E1D4C1D3B8AAD00D3AAC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E8E1D4D1D3B8AAD00D3AAC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E8E1D531D3B8AAD00D3AAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E8E1D561D3B8AAD00D3AAC2 /* fleamarket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fleamarket.xcdatamodel; sourceTree = "<group>"; };
+		5E8E1D581D3B8AAD00D3AAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E8E1D5B1D3B8AAD00D3AAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E8E1D5D1D3B8AAE00D3AAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8E1D621D3B8AAE00D3AAC2 /* fleamarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fleamarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8E1D661D3B8AAE00D3AAC2 /* fleamarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fleamarketTests.m; sourceTree = "<group>"; };
+		5E8E1D681D3B8AAE00D3AAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8E1D6D1D3B8AAE00D3AAC2 /* fleamarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fleamarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8E1D711D3B8AAE00D3AAC2 /* fleamarketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fleamarketUITests.m; sourceTree = "<group>"; };
+		5E8E1D731D3B8AAE00D3AAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8E1D831D3BA13700D3AAC2 /* FMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTabBarController.h; sourceTree = "<group>"; };
+		5E8E1D841D3BA13700D3AAC2 /* FMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTabBarController.m; sourceTree = "<group>"; };
+		5E8E1D871D3BBF7200D3AAC2 /* FMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNavigationController.h; sourceTree = "<group>"; };
+		5E8E1D881D3BBF7200D3AAC2 /* FMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMNavigationController.m; sourceTree = "<group>"; };
+		5E8E1D8F1D3BC17500D3AAC2 /* FMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMHomeViewController.h; sourceTree = "<group>"; };
+		5E8E1D901D3BC17500D3AAC2 /* FMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMHomeViewController.m; sourceTree = "<group>"; };
+		5E8E1D911D3BC17500D3AAC2 /* FMHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMHomeViewController.xib; sourceTree = "<group>"; };
+		5E8E1D941D3BDEFB00D3AAC2 /* FMFishpondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFishpondViewController.h; sourceTree = "<group>"; };
+		5E8E1D951D3BDEFB00D3AAC2 /* FMFishpondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFishpondViewController.m; sourceTree = "<group>"; };
+		5E8E1D961D3BDEFB00D3AAC2 /* FMFishpondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMFishpondViewController.xib; sourceTree = "<group>"; };
+		5E8E1D991D3BDF0800D3AAC2 /* FMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMessageViewController.h; sourceTree = "<group>"; };
+		5E8E1D9A1D3BDF0800D3AAC2 /* FMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMessageViewController.m; sourceTree = "<group>"; };
+		5E8E1D9B1D3BDF0800D3AAC2 /* FMMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMMessageViewController.xib; sourceTree = "<group>"; };
+		5E8E1D9E1D3BDF1800D3AAC2 /* FMAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAccountViewController.h; sourceTree = "<group>"; };
+		5E8E1D9F1D3BDF1800D3AAC2 /* FMAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAccountViewController.m; sourceTree = "<group>"; };
+		5E8E1DA01D3BDF1800D3AAC2 /* FMAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMAccountViewController.xib; sourceTree = "<group>"; };
+		5E8E1DA31D3BDF2600D3AAC2 /* FMPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMPublishViewController.h; sourceTree = "<group>"; };
+		5E8E1DA41D3BDF2600D3AAC2 /* FMPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMPublishViewController.m; sourceTree = "<group>"; };
+		5E8E1DA51D3BDF2600D3AAC2 /* FMPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMPublishViewController.xib; sourceTree = "<group>"; };
+		5E8E1DA81D3BE0B000D3AAC2 /* FMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTabBar.h; sourceTree = "<group>"; };
+		5E8E1DA91D3BE0B000D3AAC2 /* FMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTabBar.m; sourceTree = "<group>"; };
+		5E8E1DAB1D3C811700D3AAC2 /* FMTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTabBarButton.h; sourceTree = "<group>"; };
+		5E8E1DAC1D3C811700D3AAC2 /* FMTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTabBarButton.m; sourceTree = "<group>"; };
+		5EC5E9511D3E5DF50090767A /* FMMidMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMidMenu.h; sourceTree = "<group>"; };
+		5EC5E9521D3E5DF50090767A /* FMMidMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMidMenu.m; sourceTree = "<group>"; };
+		5EC9B3451D3CF4D000351D4F /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		5EC9B3461D3CF4D000351D4F /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E8E1D431D3B8AAD00D3AAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8E1D5F1D3B8AAE00D3AAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8E1D6A1D3B8AAE00D3AAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E8E1D3D1D3B8AAD00D3AAC2 = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D801D3BA0B000D3AAC2 /* Frameworks */,
+				5E8E1D481D3B8AAD00D3AAC2 /* fleamarket */,
+				5E8E1D651D3B8AAE00D3AAC2 /* fleamarketTests */,
+				5E8E1D701D3B8AAE00D3AAC2 /* fleamarketUITests */,
+				5E8E1D471D3B8AAD00D3AAC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E8E1D471D3B8AAD00D3AAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D461D3B8AAD00D3AAC2 /* fleamarket.app */,
+				5E8E1D621D3B8AAE00D3AAC2 /* fleamarketTests.xctest */,
+				5E8E1D6D1D3B8AAE00D3AAC2 /* fleamarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E8E1D481D3B8AAD00D3AAC2 /* fleamarket */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D8E1D3BC10E00D3AAC2 /* Publish(发布) */,
+				5E8E1D8D1D3BC0F900D3AAC2 /* Account(我的) */,
+				5E8E1D8C1D3BC0EA00D3AAC2 /* Message(消息) */,
+				5E8E1D8B1D3BC0CB00D3AAC2 /* Fishpond(鱼塘) */,
+				5E8E1D8A1D3BC0B300D3AAC2 /* Home(闲鱼) */,
+				5E8E1D861D3BBF5100D3AAC2 /* Custom */,
+				5E8E1D7F1D3BA07200D3AAC2 /* FMTabBar */,
+				5E8E1D491D3B8AAD00D3AAC2 /* Supporting Files */,
+			);
+			path = fleamarket;
+			sourceTree = "<group>";
+		};
+		5E8E1D491D3B8AAD00D3AAC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D521D3B8AAD00D3AAC2 /* Main.storyboard */,
+				5E8E1D4C1D3B8AAD00D3AAC2 /* AppDelegate.h */,
+				5E8E1D4D1D3B8AAD00D3AAC2 /* AppDelegate.m */,
+				5E8E1D581D3B8AAD00D3AAC2 /* Assets.xcassets */,
+				5E8E1D5A1D3B8AAD00D3AAC2 /* LaunchScreen.storyboard */,
+				5E8E1D5D1D3B8AAE00D3AAC2 /* Info.plist */,
+				5E8E1D551D3B8AAD00D3AAC2 /* fleamarket.xcdatamodeld */,
+				5E8E1D4A1D3B8AAD00D3AAC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E8E1D651D3B8AAE00D3AAC2 /* fleamarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D661D3B8AAE00D3AAC2 /* fleamarketTests.m */,
+				5E8E1D681D3B8AAE00D3AAC2 /* Info.plist */,
+			);
+			path = fleamarketTests;
+			sourceTree = "<group>";
+		};
+		5E8E1D701D3B8AAE00D3AAC2 /* fleamarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D711D3B8AAE00D3AAC2 /* fleamarketUITests.m */,
+				5E8E1D731D3B8AAE00D3AAC2 /* Info.plist */,
+			);
+			path = fleamarketUITests;
+			sourceTree = "<group>";
+		};
+		5E8E1D7F1D3BA07200D3AAC2 /* FMTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D831D3BA13700D3AAC2 /* FMTabBarController.h */,
+				5E8E1D841D3BA13700D3AAC2 /* FMTabBarController.m */,
+				5E8E1DA81D3BE0B000D3AAC2 /* FMTabBar.h */,
+				5E8E1DA91D3BE0B000D3AAC2 /* FMTabBar.m */,
+				5E8E1DAB1D3C811700D3AAC2 /* FMTabBarButton.h */,
+				5E8E1DAC1D3C811700D3AAC2 /* FMTabBarButton.m */,
+				5EC5E9511D3E5DF50090767A /* FMMidMenu.h */,
+				5EC5E9521D3E5DF50090767A /* FMMidMenu.m */,
+			);
+			name = FMTabBar;
+			sourceTree = "<group>";
+		};
+		5E8E1D801D3BA0B000D3AAC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E8E1D861D3BBF5100D3AAC2 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D871D3BBF7200D3AAC2 /* FMNavigationController.h */,
+				5E8E1D881D3BBF7200D3AAC2 /* FMNavigationController.m */,
+				5EC9B3451D3CF4D000351D4F /* NSString+Extension.h */,
+				5EC9B3461D3CF4D000351D4F /* NSString+Extension.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		5E8E1D8A1D3BC0B300D3AAC2 /* Home(闲鱼) */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D8F1D3BC17500D3AAC2 /* FMHomeViewController.h */,
+				5E8E1D901D3BC17500D3AAC2 /* FMHomeViewController.m */,
+				5E8E1D911D3BC17500D3AAC2 /* FMHomeViewController.xib */,
+			);
+			name = "Home(闲鱼)";
+			sourceTree = "<group>";
+		};
+		5E8E1D8B1D3BC0CB00D3AAC2 /* Fishpond(鱼塘) */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D941D3BDEFB00D3AAC2 /* FMFishpondViewController.h */,
+				5E8E1D951D3BDEFB00D3AAC2 /* FMFishpondViewController.m */,
+				5E8E1D961D3BDEFB00D3AAC2 /* FMFishpondViewController.xib */,
+			);
+			name = "Fishpond(鱼塘)";
+			sourceTree = "<group>";
+		};
+		5E8E1D8C1D3BC0EA00D3AAC2 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D991D3BDF0800D3AAC2 /* FMMessageViewController.h */,
+				5E8E1D9A1D3BDF0800D3AAC2 /* FMMessageViewController.m */,
+				5E8E1D9B1D3BDF0800D3AAC2 /* FMMessageViewController.xib */,
+			);
+			name = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		5E8E1D8D1D3BC0F900D3AAC2 /* Account(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1D9E1D3BDF1800D3AAC2 /* FMAccountViewController.h */,
+				5E8E1D9F1D3BDF1800D3AAC2 /* FMAccountViewController.m */,
+				5E8E1DA01D3BDF1800D3AAC2 /* FMAccountViewController.xib */,
+			);
+			name = "Account(我的)";
+			sourceTree = "<group>";
+		};
+		5E8E1D8E1D3BC10E00D3AAC2 /* Publish(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E1DA31D3BDF2600D3AAC2 /* FMPublishViewController.h */,
+				5E8E1DA41D3BDF2600D3AAC2 /* FMPublishViewController.m */,
+				5E8E1DA51D3BDF2600D3AAC2 /* FMPublishViewController.xib */,
+			);
+			name = "Publish(发布)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E8E1D451D3B8AAD00D3AAC2 /* fleamarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8E1D761D3B8AAE00D3AAC2 /* Build configuration list for PBXNativeTarget "fleamarket" */;
+			buildPhases = (
+				5E8E1D421D3B8AAD00D3AAC2 /* Sources */,
+				5E8E1D431D3B8AAD00D3AAC2 /* Frameworks */,
+				5E8E1D441D3B8AAD00D3AAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fleamarket;
+			productName = fleamarket;
+			productReference = 5E8E1D461D3B8AAD00D3AAC2 /* fleamarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E8E1D611D3B8AAE00D3AAC2 /* fleamarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8E1D791D3B8AAE00D3AAC2 /* Build configuration list for PBXNativeTarget "fleamarketTests" */;
+			buildPhases = (
+				5E8E1D5E1D3B8AAE00D3AAC2 /* Sources */,
+				5E8E1D5F1D3B8AAE00D3AAC2 /* Frameworks */,
+				5E8E1D601D3B8AAE00D3AAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8E1D641D3B8AAE00D3AAC2 /* PBXTargetDependency */,
+			);
+			name = fleamarketTests;
+			productName = fleamarketTests;
+			productReference = 5E8E1D621D3B8AAE00D3AAC2 /* fleamarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E8E1D6C1D3B8AAE00D3AAC2 /* fleamarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8E1D7C1D3B8AAE00D3AAC2 /* Build configuration list for PBXNativeTarget "fleamarketUITests" */;
+			buildPhases = (
+				5E8E1D691D3B8AAE00D3AAC2 /* Sources */,
+				5E8E1D6A1D3B8AAE00D3AAC2 /* Frameworks */,
+				5E8E1D6B1D3B8AAE00D3AAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8E1D6F1D3B8AAE00D3AAC2 /* PBXTargetDependency */,
+			);
+			name = fleamarketUITests;
+			productName = fleamarketUITests;
+			productReference = 5E8E1D6D1D3B8AAE00D3AAC2 /* fleamarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E8E1D3E1D3B8AAD00D3AAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FM;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = amsoft;
+				TargetAttributes = {
+					5E8E1D451D3B8AAD00D3AAC2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QYN9464KFP;
+					};
+					5E8E1D611D3B8AAE00D3AAC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5E8E1D451D3B8AAD00D3AAC2;
+					};
+					5E8E1D6C1D3B8AAE00D3AAC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5E8E1D451D3B8AAD00D3AAC2;
+					};
+				};
+			};
+			buildConfigurationList = 5E8E1D411D3B8AAD00D3AAC2 /* Build configuration list for PBXProject "fleamarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E8E1D3D1D3B8AAD00D3AAC2;
+			productRefGroup = 5E8E1D471D3B8AAD00D3AAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E8E1D451D3B8AAD00D3AAC2 /* fleamarket */,
+				5E8E1D611D3B8AAE00D3AAC2 /* fleamarketTests */,
+				5E8E1D6C1D3B8AAE00D3AAC2 /* fleamarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E8E1D441D3B8AAD00D3AAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8E1D931D3BC17500D3AAC2 /* FMHomeViewController.xib in Resources */,
+				5E8E1DA21D3BDF1800D3AAC2 /* FMAccountViewController.xib in Resources */,
+				5E8E1D5C1D3B8AAD00D3AAC2 /* LaunchScreen.storyboard in Resources */,
+				5E8E1D981D3BDEFB00D3AAC2 /* FMFishpondViewController.xib in Resources */,
+				5E8E1D9D1D3BDF0800D3AAC2 /* FMMessageViewController.xib in Resources */,
+				5E8E1DA71D3BDF2600D3AAC2 /* FMPublishViewController.xib in Resources */,
+				5E8E1D591D3B8AAD00D3AAC2 /* Assets.xcassets in Resources */,
+				5E8E1D541D3B8AAD00D3AAC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8E1D601D3B8AAE00D3AAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8E1D6B1D3B8AAE00D3AAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E8E1D421D3B8AAD00D3AAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8E1DAA1D3BE0B000D3AAC2 /* FMTabBar.m in Sources */,
+				5E8E1D921D3BC17500D3AAC2 /* FMHomeViewController.m in Sources */,
+				5E8E1D4E1D3B8AAD00D3AAC2 /* AppDelegate.m in Sources */,
+				5E8E1D891D3BBF7200D3AAC2 /* FMNavigationController.m in Sources */,
+				5E8E1D9C1D3BDF0800D3AAC2 /* FMMessageViewController.m in Sources */,
+				5E8E1D4B1D3B8AAD00D3AAC2 /* main.m in Sources */,
+				5EC9B3471D3CF4D000351D4F /* NSString+Extension.m in Sources */,
+				5E8E1DAD1D3C811700D3AAC2 /* FMTabBarButton.m in Sources */,
+				5EC5E9531D3E5DF50090767A /* FMMidMenu.m in Sources */,
+				5E8E1DA61D3BDF2600D3AAC2 /* FMPublishViewController.m in Sources */,
+				5E8E1D571D3B8AAD00D3AAC2 /* fleamarket.xcdatamodeld in Sources */,
+				5E8E1D851D3BA13700D3AAC2 /* FMTabBarController.m in Sources */,
+				5E8E1DA11D3BDF1800D3AAC2 /* FMAccountViewController.m in Sources */,
+				5E8E1D971D3BDEFB00D3AAC2 /* FMFishpondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8E1D5E1D3B8AAE00D3AAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8E1D671D3B8AAE00D3AAC2 /* fleamarketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8E1D691D3B8AAE00D3AAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8E1D721D3B8AAE00D3AAC2 /* fleamarketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E8E1D641D3B8AAE00D3AAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E8E1D451D3B8AAD00D3AAC2 /* fleamarket */;
+			targetProxy = 5E8E1D631D3B8AAE00D3AAC2 /* PBXContainerItemProxy */;
+		};
+		5E8E1D6F1D3B8AAE00D3AAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E8E1D451D3B8AAD00D3AAC2 /* fleamarket */;
+			targetProxy = 5E8E1D6E1D3B8AAE00D3AAC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E8E1D521D3B8AAD00D3AAC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8E1D531D3B8AAD00D3AAC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E8E1D5A1D3B8AAD00D3AAC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8E1D5B1D3B8AAD00D3AAC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E8E1D741D3B8AAE00D3AAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E8E1D751D3B8AAE00D3AAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E8E1D771D3B8AAE00D3AAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = fleamarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amsoft.shiyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E8E1D781D3B8AAE00D3AAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = fleamarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amsoft.shiyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E8E1D7A1D3B8AAE00D3AAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fleamarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amsoft.fleamarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fleamarket.app/fleamarket";
+			};
+			name = Debug;
+		};
+		5E8E1D7B1D3B8AAE00D3AAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fleamarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amsoft.fleamarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fleamarket.app/fleamarket";
+			};
+			name = Release;
+		};
+		5E8E1D7D1D3B8AAE00D3AAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fleamarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amsoft.fleamarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fleamarket;
+			};
+			name = Debug;
+		};
+		5E8E1D7E1D3B8AAE00D3AAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fleamarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amsoft.fleamarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fleamarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E8E1D411D3B8AAD00D3AAC2 /* Build configuration list for PBXProject "fleamarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8E1D741D3B8AAE00D3AAC2 /* Debug */,
+				5E8E1D751D3B8AAE00D3AAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8E1D761D3B8AAE00D3AAC2 /* Build configuration list for PBXNativeTarget "fleamarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8E1D771D3B8AAE00D3AAC2 /* Debug */,
+				5E8E1D781D3B8AAE00D3AAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8E1D791D3B8AAE00D3AAC2 /* Build configuration list for PBXNativeTarget "fleamarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8E1D7A1D3B8AAE00D3AAC2 /* Debug */,
+				5E8E1D7B1D3B8AAE00D3AAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8E1D7C1D3B8AAE00D3AAC2 /* Build configuration list for PBXNativeTarget "fleamarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8E1D7D1D3B8AAE00D3AAC2 /* Debug */,
+				5E8E1D7E1D3B8AAE00D3AAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E8E1D551D3B8AAD00D3AAC2 /* fleamarket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E8E1D561D3B8AAD00D3AAC2 /* fleamarket.xcdatamodel */,
+			);
+			currentVersion = 5E8E1D561D3B8AAD00D3AAC2 /* fleamarket.xcdatamodel */;
+			path = fleamarket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E8E1D3E1D3B8AAD00D3AAC2 /* Project object */;
+}
